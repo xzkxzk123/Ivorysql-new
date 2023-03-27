@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import IndexIntroduce from '../components/index-introduce';
+import HomepageFeatures from '../components/HomepageFeatures';
 import Translate, {translate} from '@docusaurus/Translate';
 import Elephant from '../../svg/img-elephant-balloon.svg';
 
@@ -44,7 +44,7 @@ export default function Home() {
       description="Open Source Oracle compatible PostgreSQL">
       <HomepageHeader />
       <main>
-        <IndexIntroduce />
+        <HomepageFeatures />
       </main>
     </Layout>
   );
