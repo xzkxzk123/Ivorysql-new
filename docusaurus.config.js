@@ -61,8 +61,7 @@ const config = {
         items: [
           {
             label: 'Docs',
-            type: 'doc',
-            docId: 'intro',
+            href: 'https://docs.ivorysql.org/ivorysql-doc-cn/v2.2/welcome.html',
             position: 'left'
           },
           {
@@ -106,11 +105,6 @@ const config = {
           },
 
           //Right Side Items
-          {
-            type: 'docsVersionDropdown',
-            position: 'right',
-            nextVersionLabel: 'Devel',
-          },
           {
             label: 'Community',
             to: '/community-page',
