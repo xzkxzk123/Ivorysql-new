@@ -61,7 +61,7 @@ const config = {
         items: [
           {
             label: 'Docs',
-            href: 'https://docs.ivorysql.org/ivorysql-doc-cn/v2.2/welcome.html',
+            href: 'https://docs.IvorySQL.org',
             position: 'left'
           },
           {
@@ -134,11 +134,11 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                href: 'https://docs.IvorySQL.org',
               },
             ],
           },
-          {
+          { 
             title: 'Community',
             items: [
               {
